@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 h1 {
   font-size: 40px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .blog-big {
@@ -28,7 +30,7 @@ button {
   color: white;
   background-color: black;
   border-radius: 10px;
-  height: 30px;
+  height: 35px;
   width: 120px;
 }
 
@@ -39,4 +41,11 @@ button {
   justify-content: center;
   flex-direction: column;
   display: flex;
+}
+
+* {
+  font-family: "Rubik", serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
